@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-})->name('home');
+Route::get('/', 'HomeController@index')->name('home');
 
 Route::post('subscriber','SubscriberController@store')->name('subscriber.store');
 

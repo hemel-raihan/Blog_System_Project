@@ -18,7 +18,7 @@ class UsersTableSeeder extends Seeder
             'role_id'=> '1',
             'name'=> 'MD.Admin',
             'username'=> 'admin',
-            'email'=> 'admin@gmail.com',
+            'email'=> 'hemel.1997@gmail.com',
             'password'=> bcrypt('rootadmin'),
             
         ]);
@@ -27,7 +27,7 @@ class UsersTableSeeder extends Seeder
             'role_id'=> '2',
             'name'=> 'MD.Author',
             'username'=> 'author',
-            'email'=> 'author@gmail.com',
+            'email'=> 'raihanhemel.aiub@gmail.com',
             'password'=> bcrypt('rootauthor'),
             
         ]);
